@@ -1403,3 +1403,220 @@
 2022-12-22 10:26:47,829 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-12-22 10:26:47,832 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-22 10:26:47,832 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter1\simple-application\src\test\resources
+2022-12-23 15:10:00,925 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-23 15:19:07,471 [Worker-40: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+org.eclipse.core.runtime.CoreException: Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-12-23 15:19:07,474 [Worker-40: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+org.eclipse.core.runtime.CoreException: Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-12-23 15:19:07,481 [Worker-40: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+org.eclipse.core.runtime.CoreException: Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-12-23 15:19:20,229 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/spotify/dockerfile-maven-plugin/1.4.13/dockerfile-maven-plugin-1.4.13.jar
+2022-12-23 15:19:20,375 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/spotify/dockerfile-maven-plugin/1.4.13/dockerfile-maven-plugin-1.4.13.jar
+2022-12-23 15:19:21,972 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.optimagrowth:licensing-service:0.0.1-SNAPSHOT @ C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter4\licensing-service\pom.xml.
+2022-12-23 15:19:23,735 [Worker-0: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+org.eclipse.core.runtime.CoreException: Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:404)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:398)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:428)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:315)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:256)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-12-23 15:19:23,737 [Worker-0: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+org.eclipse.core.runtime.CoreException: Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:405)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:398)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:428)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:315)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:256)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-12-23 15:19:23,740 [Worker-0: Importing Maven projects] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+org.eclipse.core.runtime.CoreException: Launch configuration LicenseServiceApplication references non-existing project licensing-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:399)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:428)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:315)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:256)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-12-23 15:19:24,066 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /licensing-service/src/main/java
+2022-12-23 15:19:24,067 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /licensing-service/src/main/resources
+2022-12-23 15:19:24,071 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /licensing-service/src/main/resources
+2022-12-23 15:19:24,075 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /licensing-service/src/test/java
+2022-12-23 15:19:24,620 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-12-23 15:20:12,965 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [1089])
+2022-12-23 15:20:12,973 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2022-12-23 15:20:12,973 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2022-12-23 15:20:12,973 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2022-12-23 15:20:12,973 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2022-12-23 15:20:12,973 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2022-12-23 15:20:12,974 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2022-12-23 15:20:12,975 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2022-12-23 15:20:12,976 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2022-12-23 15:20:12,977 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2022-12-23 15:20:12,977 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2022-12-23 15:20:12,977 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2022-12-23 15:20:12,977 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2022-12-23 15:20:12,977 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2022-12-23 15:20:12,977 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2022-12-23 15:20:12,979 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [921])
+2022-12-23 15:20:12,980 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2022-12-23 15:20:12,980 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [1193])
+2022-12-23 15:20:12,981 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2022-12-23 15:20:12,981 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [31])
+2022-12-23 15:20:12,981 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2022-12-23 15:20:12,981 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [931])
+2022-12-23 15:20:12,982 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kirep\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2022-12-23 15:20:12,984 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter4\licensing-service":
+2022-12-23 15:20:12,987 [Worker-39: Launching Executing clean in C__Users_kirep_Downloads_manning-smia-master_manning-smia-master_chapter4_licensing-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
