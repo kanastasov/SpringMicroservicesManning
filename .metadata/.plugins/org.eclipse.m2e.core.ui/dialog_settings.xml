@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter5\licensing-service"/>
+			<item value="C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter5\configserver"/>
 			<item value="C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter3\licensing-service"/>
 			<item value="C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter2\licensing-service"/>
 			<item value="C:\Users\kirep\Downloads\manning-smia-master\manning-smia-master\chapter1"/>
